@@ -1,12 +1,12 @@
 package com.girish.daggerlearning;
 
-import dagger.Module;
-import dagger.Provides;
+import dagger.Module2;
+import dagger.Provides2;
 
-@Module
+@Module2
 public class MyModule {
 
-    @Provides
+    @Provides2
     DataSource provideDataSource() {
         return new NetworkDataSource("network data");
     }
